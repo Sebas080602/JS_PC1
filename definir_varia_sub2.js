@@ -48,3 +48,7 @@ var: Usar con precaución; su ámbito es más amplio y puede llevar a errores si
 let: Usar para variables que pueden cambiar y que deben respetar el ámbito de bloque.
 const: Usar para constantes o valores que no deben cambiar; es la opción más segura por defecto.
 */
+
+// Hoisting
+
+// Hoisting es un comportamiento en JavaScript donde las declaraciones de variables y funciones son movidas "al inicio" de su contexto de ejecución 

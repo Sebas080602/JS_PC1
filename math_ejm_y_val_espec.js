@@ -37,4 +37,32 @@ console.log(positivoInfinito); // Infinity
 console.log(negativoInfinito); // -Infinity
 console.log(isFinite(positivoInfinito)); // false
 
+////////////////////////////////
+
+// Valores especiales - repaso
+/*
+Valores Especiales
+JavaScript maneja ciertos valores especiales que son importantes de conocer:
+
+NaN (Not a Number)
+
+NaN es un valor especial que indica que una operación que esperaba un número no pudo devolver un resultado numérico válido.
+*/
+
+let resultado = 0 / 0;
+console.log(resultado); // NaN
+console.log(isNaN(resultado)); // true
+
+/*
+Infinity y -Infinity
+
+Infinity representa un número que es mayor que cualquier otro número posible en JavaScript. Se obtiene, por ejemplo, cuando se divide un número por cero.
+-Infinity es su contraparte negativa.
+*/
+
+let positivoInfinito = 1 / 0;
+let negativoInfinito = -1 / 0;
+console.log(positivoInfinito); // Infinity
+console.log(negativoInfinito); // -Infinity
+console.log(isFinite(positivoInfinito)); // false
 
